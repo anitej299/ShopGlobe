@@ -74,7 +74,7 @@ Open `notebooks/ShopGlobe_Colab_Demo.ipynb` in Colab and run all cells. The note
 
 ## Streamlit Community Cloud deployment
 
-The source is published at `https://github.com/anitej299/ShopGlobe` on branch `main` as a public repository. In Streamlit Community Cloud, create an app using repository `anitej299/ShopGlobe`, branch `main`, and main file path `app.py`. The service installs the root `requirements.txt`; no app secrets or database are needed. A public repository produces a public app by default. Deployment status and the live URL should be verified in Streamlit Community Cloud.
+The app is live at [shopglobe-2pdfp9ac6xngnqzggpjfht.streamlit.app](https://shopglobe-2pdfp9ac6xngnqzggpjfht.streamlit.app/). Its public source repository is [anitej299/ShopGlobe](https://github.com/anitej299/ShopGlobe) on branch `main`. Streamlit Community Cloud deploys `app.py` and installs the root `requirements.txt`; no app secrets or database are needed.
 
 ## Screenshots
 
