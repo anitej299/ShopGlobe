@@ -1,0 +1,52 @@
+{
+  "total_raw_products": 527,
+  "valid_products": 521,
+  "invalid_records": 4,
+  "duplicate_records": 2,
+  "missing_values": {
+    "name": 1,
+    "attributes": 1
+  },
+  "cleaning_actions": [
+    "SG-0521: normalized category running shoes to Running Shoes"
+  ],
+  "rejected_records": [
+    {
+      "id": "SG-0002",
+      "reasons": [
+        "duplicate ID or record"
+      ]
+    },
+    {
+      "id": "SG-0001",
+      "reasons": [
+        "duplicate ID or record"
+      ]
+    },
+    {
+      "id": "BAD-missing_name",
+      "reasons": [
+        "missing name"
+      ]
+    },
+    {
+      "id": "BAD-missing_attributes",
+      "reasons": [
+        "missing attributes"
+      ]
+    },
+    {
+      "id": "BAD-negative_price",
+      "reasons": [
+        "invalid price"
+      ]
+    },
+    {
+      "id": "BAD-bad_rating",
+      "reasons": [
+        "invalid rating"
+      ]
+    }
+  ],
+  "final_usable_products": 521
+}

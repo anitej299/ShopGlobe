@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rdf:RDF
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+   xmlns:sg="https://example.org/shopglobe/"
+>
+  <rdf:Description rdf:about="https://example.org/shopglobe/hasRamGB">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/shopglobe/hasStock">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/shopglobe/Waterproof">
+    <sg:relatedTo rdf:resource="https://example.org/shopglobe/WaterResistance"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/shopglobe/Category">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/shopglobe/Smartphone">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://example.org/shopglobe/Electronics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/shopglobe/manufacturedBy">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/shopglobe/StabilitySupport">
+    <sg:relatedTo rdf:resource="https://example.org/shopglobe/FlatFeetSupport"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/shopglobe/RunningShoes">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://example.org/shopglobe/Footwear"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/shopglobe/Activity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/shopglobe/WaterResistance">
+    <sg:relatedTo rdf:resource="https://example.org/shopglobe/Waterproof"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/shopglobe/Product">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:label>Synthetic catalog product</rdfs:label>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/shopglobe/Laptop">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://example.org/shopglobe/Electronics"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/shopglobe/NoiseCancellation">
+    <sg:relatedTo rdf:resource="https://example.org/shopglobe/ANC"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/shopglobe/Footwear">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://example.org/shopglobe/Product"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/shopglobe/belongsToCategory">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/shopglobe/suitableForActivity">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/shopglobe/hasSupportType">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/shopglobe/Feature">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/shopglobe/Electronics">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+    <rdfs:subClassOf rdf:resource="https://example.org/shopglobe/Product"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/shopglobe/hasRating">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/shopglobe/hasPrice">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/shopglobe/FlatFeetSupport">
+    <sg:relatedTo rdf:resource="https://example.org/shopglobe/StabilitySupport"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/shopglobe/hasWaterResistance">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/shopglobe/relatedTo">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/shopglobe/Brand">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/shopglobe/hasFeature">
+    <rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+  </rdf:Description>
+  <rdf:Description rdf:about="https://example.org/shopglobe/ANC">
+    <sg:relatedTo rdf:resource="https://example.org/shopglobe/NoiseCancellation"/>
+  </rdf:Description>
+</rdf:RDF>

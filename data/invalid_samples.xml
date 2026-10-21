@@ -1,0 +1,188 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<products synthetic="true">
+  <product id="SG-0002">
+    <name>Duplicate identifier</name>
+    <brand>Stridecraft 2</brand>
+    <category>Running Shoes</category>
+    <subcategory>Road</subcategory>
+    <description>Synthetic running shoes designed for walking; features lightweight.</description>
+    <price>8100</price>
+    <rating>4.8</rating>
+    <stock>true</stock>
+    <features>
+      <feature>lightweight</feature>
+    </features>
+    <usage>
+      <activity>walking</activity>
+    </usage>
+    <specifications>
+      <spec key="weight_g">760</spec>
+    </specifications>
+    <attributes>
+      <attribute key="material">synthetic</attribute>
+      <attribute key="waterproof">false</attribute>
+      <attribute key="arch_support">high</attribute>
+      <attribute key="stability_support">false</attribute>
+      <attribute key="intended_activity">walking</attribute>
+    </attributes>
+  </product>
+  <product id="SG-0001">
+    <name>Stridecraft Trail 01</name>
+    <brand>Stridecraft 1</brand>
+    <category>Running Shoes</category>
+    <subcategory>Trail</subcategory>
+    <description>Synthetic running shoes designed for running; features breathable, cushioned, stability support, waterproof.</description>
+    <price>3000</price>
+    <rating>3.3</rating>
+    <stock>false</stock>
+    <features>
+      <feature>breathable</feature>
+      <feature>cushioned</feature>
+      <feature>stability support</feature>
+      <feature>waterproof</feature>
+    </features>
+    <usage>
+      <activity>running</activity>
+    </usage>
+    <specifications>
+      <spec key="weight_g">300</spec>
+    </specifications>
+    <attributes>
+      <attribute key="material">synthetic</attribute>
+      <attribute key="waterproof">true</attribute>
+      <attribute key="arch_support">neutral</attribute>
+      <attribute key="stability_support">true</attribute>
+      <attribute key="intended_activity">running</attribute>
+    </attributes>
+  </product>
+  <product id="BAD-missing_name">
+    <name></name>
+    <brand>Stridecraft 1</brand>
+    <category>Running Shoes</category>
+    <subcategory>Trail</subcategory>
+    <description>Synthetic running shoes designed for walking; features cushioned.</description>
+    <price>1900</price>
+    <rating>5.0</rating>
+    <stock>true</stock>
+    <features>
+      <feature>cushioned</feature>
+    </features>
+    <usage>
+      <activity>walking</activity>
+    </usage>
+    <specifications>
+      <spec key="weight_g">340</spec>
+    </specifications>
+    <attributes>
+      <attribute key="material">recycled blend</attribute>
+      <attribute key="waterproof">false</attribute>
+      <attribute key="arch_support">neutral</attribute>
+      <attribute key="stability_support">false</attribute>
+      <attribute key="intended_activity">walking</attribute>
+    </attributes>
+  </product>
+  <product id="BAD-missing_attributes">
+    <name>Stridecraft Road 05</name>
+    <brand>Stridecraft 2</brand>
+    <category>Running Shoes</category>
+    <subcategory>Road</subcategory>
+    <description>Synthetic running shoes designed for running; features cushioned, lightweight, stability support, waterproof.</description>
+    <price>4300</price>
+    <rating>5.0</rating>
+    <stock>true</stock>
+    <features>
+      <feature>cushioned</feature>
+      <feature>lightweight</feature>
+      <feature>stability support</feature>
+      <feature>waterproof</feature>
+    </features>
+    <usage>
+      <activity>running</activity>
+    </usage>
+    <specifications>
+      <spec key="weight_g">780</spec>
+    </specifications>
+    <attributes/>
+  </product>
+  <product id="BAD-negative_price">
+    <name>Stridecraft Stability 06</name>
+    <brand>Stridecraft 3</brand>
+    <category>Running Shoes</category>
+    <subcategory>Stability</subcategory>
+    <description>Synthetic running shoes designed for walking; features waterproof.</description>
+    <price>-20</price>
+    <rating>3.2</rating>
+    <stock>true</stock>
+    <features>
+      <feature>waterproof</feature>
+    </features>
+    <usage>
+      <activity>walking</activity>
+    </usage>
+    <specifications>
+      <spec key="weight_g">620</spec>
+    </specifications>
+    <attributes>
+      <attribute key="material">recycled blend</attribute>
+      <attribute key="waterproof">true</attribute>
+      <attribute key="arch_support">neutral</attribute>
+      <attribute key="stability_support">false</attribute>
+      <attribute key="intended_activity">walking</attribute>
+    </attributes>
+  </product>
+  <product id="BAD-bad_rating">
+    <name>Stridecraft Trail 07</name>
+    <brand>Stridecraft 1</brand>
+    <category>Running Shoes</category>
+    <subcategory>Trail</subcategory>
+    <description>Synthetic running shoes designed for running; features breathable, lightweight.</description>
+    <price>8700</price>
+    <rating>7</rating>
+    <stock>true</stock>
+    <features>
+      <feature>breathable</feature>
+      <feature>lightweight</feature>
+    </features>
+    <usage>
+      <activity>running</activity>
+    </usage>
+    <specifications>
+      <spec key="weight_g">940</spec>
+    </specifications>
+    <attributes>
+      <attribute key="material">mesh</attribute>
+      <attribute key="waterproof">false</attribute>
+      <attribute key="arch_support">high</attribute>
+      <attribute key="stability_support">false</attribute>
+      <attribute key="intended_activity">running</attribute>
+    </attributes>
+  </product>
+  <product id="SG-0521">
+    <name>Stridecraft Road 08 Variant</name>
+    <brand>Stridecraft 2</brand>
+    <category>running shoes</category>
+    <subcategory>Road</subcategory>
+    <description>Synthetic running shoes designed for walking; features breathable, lightweight, waterproof.</description>
+    <price>4900</price>
+    <rating>4.6</rating>
+    <stock>true</stock>
+    <features>
+      <feature>breathable</feature>
+      <feature>lightweight</feature>
+      <feature>waterproof</feature>
+    </features>
+    <usage>
+      <activity>walking</activity>
+    </usage>
+    <specifications>
+      <spec key="weight_g">700</spec>
+    </specifications>
+    <attributes>
+      <attribute key="material">recycled blend</attribute>
+      <attribute key="waterproof">true</attribute>
+      <attribute key="arch_support">neutral</attribute>
+      <attribute key="stability_support">false</attribute>
+      <attribute key="intended_activity">walking</attribute>
+    </attributes>
+  </product>
+</products>

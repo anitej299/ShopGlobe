@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+  <xs:element name="products"><xs:complexType><xs:sequence>
+    <xs:element name="product" minOccurs="0" maxOccurs="unbounded"><xs:complexType><xs:sequence>
+      <xs:element name="name" type="requiredText"/><xs:element name="brand" type="requiredText"/>
+      <xs:element name="category" type="xs:string"/><xs:element name="subcategory" type="xs:string"/>
+      <xs:element name="description" type="xs:string"/><xs:element name="price" type="positivePrice"/>
+      <xs:element name="rating" type="ratingValue"/><xs:element name="stock" type="xs:boolean"/>
+      <xs:element name="features"><xs:complexType><xs:sequence><xs:element name="feature" type="xs:string" minOccurs="0" maxOccurs="unbounded"/></xs:sequence></xs:complexType></xs:element>
+      <xs:element name="usage"><xs:complexType><xs:sequence><xs:element name="activity" type="xs:string" minOccurs="0" maxOccurs="unbounded"/></xs:sequence></xs:complexType></xs:element>
+      <xs:element name="specifications"><xs:complexType><xs:sequence><xs:element name="spec" minOccurs="0" maxOccurs="unbounded"><xs:complexType><xs:simpleContent><xs:extension base="xs:string"><xs:attribute name="key" type="xs:string" use="required"/></xs:extension></xs:simpleContent></xs:complexType></xs:element></xs:sequence></xs:complexType></xs:element>
+      <xs:element name="attributes"><xs:complexType><xs:sequence><xs:element name="attribute" minOccurs="0" maxOccurs="unbounded"><xs:complexType><xs:simpleContent><xs:extension base="xs:string"><xs:attribute name="key" type="xs:string" use="required"/></xs:extension></xs:simpleContent></xs:complexType></xs:element></xs:sequence></xs:complexType></xs:element>
+    </xs:sequence><xs:attribute name="id" type="xs:string" use="required"/></xs:complexType></xs:element>
+  </xs:sequence><xs:attribute name="synthetic" type="xs:boolean" use="required"/></xs:complexType></xs:element>
+  <xs:simpleType name="requiredText"><xs:restriction base="xs:string"><xs:minLength value="1"/></xs:restriction></xs:simpleType>
+  <xs:simpleType name="positivePrice"><xs:restriction base="xs:decimal"><xs:minExclusive value="0"/></xs:restriction></xs:simpleType>
+  <xs:simpleType name="ratingValue"><xs:restriction base="xs:decimal"><xs:minInclusive value="0"/><xs:maxInclusive value="5"/></xs:restriction></xs:simpleType>
+</xs:schema>

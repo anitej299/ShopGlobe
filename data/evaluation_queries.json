@@ -1,0 +1,242 @@
+[
+  {
+    "query": "Waterproof running shoes for flat feet under 5000",
+    "relevant_ids": [
+      "SG-0005",
+      "SG-0021",
+      "SG-0013"
+    ]
+  },
+  {
+    "query": "Stability running shoes for flat feet",
+    "relevant_ids": [
+      "SG-0005",
+      "SG-0021",
+      "SG-0013"
+    ]
+  },
+  {
+    "query": "Lightweight running shoes",
+    "relevant_ids": [
+      "SG-0005",
+      "SG-0021",
+      "SG-0051"
+    ]
+  },
+  {
+    "query": "Running shoes under 4000",
+    "relevant_ids": [
+      "SG-0021",
+      "SG-0003",
+      "SG-0037"
+    ]
+  },
+  {
+    "query": "Waterproof running shoes",
+    "relevant_ids": [
+      "SG-0005",
+      "SG-0021",
+      "SG-0013"
+    ]
+  },
+  {
+    "query": "Comfortable shoes for walking",
+    "relevant_ids": [
+      "SG-0095",
+      "SG-0087",
+      "SG-0075"
+    ]
+  },
+  {
+    "query": "Waterproof casual shoes",
+    "relevant_ids": [
+      "SG-0102",
+      "SG-0072",
+      "SG-0099"
+    ]
+  },
+  {
+    "query": "Lightweight casual shoes under 5000",
+    "relevant_ids": [
+      "SG-0055",
+      "SG-0074",
+      "SG-0064"
+    ]
+  },
+  {
+    "query": "Casual shoes for college",
+    "relevant_ids": [
+      "SG-0102",
+      "SG-0072",
+      "SG-0060"
+    ]
+  },
+  {
+    "query": "Walking shoes under 3000",
+    "relevant_ids": [
+      "SG-0055",
+      "SG-0063",
+      "SG-0075"
+    ]
+  },
+  {
+    "query": "Breathable sportswear for running",
+    "relevant_ids": [
+      "SG-0132",
+      "SG-0118",
+      "SG-0136"
+    ]
+  },
+  {
+    "query": "Quick dry sportswear for fitness",
+    "relevant_ids": [
+      "SG-0109",
+      "SG-0153",
+      "SG-0129"
+    ]
+  },
+  {
+    "query": "Lightweight sportswear",
+    "relevant_ids": [
+      "SG-0124",
+      "SG-0108",
+      "SG-0125"
+    ]
+  },
+  {
+    "query": "Sportswear under 2000",
+    "relevant_ids": [
+      "SG-0120",
+      "SG-0152",
+      "SG-0142"
+    ]
+  },
+  {
+    "query": "Jacket for running",
+    "relevant_ids": [
+      "SG-0120",
+      "SG-0132",
+      "SG-0108"
+    ]
+  },
+  {
+    "query": "Smartphone with good battery under 20000",
+    "relevant_ids": [
+      "SG-0181",
+      "SG-0189",
+      "SG-0172"
+    ]
+  },
+  {
+    "query": "Smartphone under 15000",
+    "relevant_ids": [
+      "SG-0191",
+      "SG-0206",
+      "SG-0193"
+    ]
+  },
+  {
+    "query": "Phone for gaming",
+    "relevant_ids": [
+      "SG-0166",
+      "SG-0198",
+      "SG-0172"
+    ]
+  },
+  {
+    "query": "Phone with long battery",
+    "relevant_ids": [
+      "SG-0179",
+      "SG-0169",
+      "SG-0181"
+    ]
+  },
+  {
+    "query": "Smartphone under 10000",
+    "relevant_ids": [
+      "SG-0191",
+      "SG-0206",
+      "SG-0193"
+    ]
+  },
+  {
+    "query": "Gaming laptop with 16GB RAM below 70000",
+    "relevant_ids": [
+      "SG-0221",
+      "SG-0227",
+      "SG-0215"
+    ]
+  },
+  {
+    "query": "Laptop with 16GB RAM",
+    "relevant_ids": [
+      "SG-0221",
+      "SG-0259",
+      "SG-0246"
+    ]
+  },
+  {
+    "query": "Laptop under 60000",
+    "relevant_ids": [
+      "SG-0221",
+      "SG-0218",
+      "SG-0257"
+    ]
+  },
+  {
+    "query": "Lightweight laptop",
+    "relevant_ids": [
+      "SG-0246",
+      "SG-0223",
+      "SG-0230"
+    ]
+  },
+  {
+    "query": "Laptop for study",
+    "relevant_ids": [
+      "SG-0246",
+      "SG-0225",
+      "SG-0255"
+    ]
+  },
+  {
+    "query": "Wireless headphones with noise cancellation",
+    "relevant_ids": [
+      "SG-0276",
+      "SG-0293",
+      "SG-0263"
+    ]
+  },
+  {
+    "query": "Headphones for music",
+    "relevant_ids": [
+      "SG-0295",
+      "SG-0298",
+      "SG-0265"
+    ]
+  },
+  {
+    "query": "Headphones under 3000",
+    "relevant_ids": [
+      "SG-0271",
+      "SG-0291",
+      "SG-0269"
+    ]
+  },
+  {
+    "query": "Affordable smartwatch for fitness tracking",
+    "relevant_ids": [
+      "SG-0313",
+      "SG-0317",
+      "SG-0335"
+    ]
+  },
+  {
+    "query": "Lightweight backpack for college",
+    "relevant_ids": [
+      "SG-0373",
+      "SG-0413",
+      "SG-0371"
+    ]
+  }
+]
